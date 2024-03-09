@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+    header h1{
+        color: blue;
+    }
+.tagovi{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tagovi button{
+    padding: 10px;
+    color: blue;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.container{
+    padding-top: 100px; 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.novi{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.buttons{
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.prvi{
+    padding: 10px;
+    color: white;
+background-color: blue;
+    font-size: 15px;
+    border-radius: 30px;
+}
+
+.drugi{
+    padding: 10px;
+    color: blue;
+    font-size: 15px;
+    border-radius: 30px;
+}
+.slika{
+    display: flex;
+    flex-direction: row;
+}
+
+.slika img{
+    display: flex;
+    flex-direction: row;
+ 
+    width: 400px;
+    height: 400px;
+}
+
+footer{
+    margin-top: 140px;
+    width: 100%;
+    height:12vh;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.icons i{
+    width: fit-content;
+    border: 3px solid grey;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
